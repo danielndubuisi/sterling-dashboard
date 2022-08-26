@@ -48,21 +48,23 @@ const Login = () => {
 
           <label className="label">
             Password
-            <input
-              type="password"
-              onChange={handleChange("password")}
-              value={values.password}
-              placeholder="8-characters"
-            />
-            <span className="icon" onClick={handleShowPassword}>
-              <>
-                {values.showPassword ? (
-                  <VisibilityIcon />
-                ) : (
-                  <VisibilityOffIcon />
-                )}
-              </>
-            </span>
+            <div className="flexed">
+              <input
+                type="password"
+                onChange={handleChange("password")}
+                value={values.password}
+                placeholder="8-characters"
+              />
+              <span className="icon" onClick={handleShowPassword}>
+                <>
+                  {values.showPassword ? (
+                    <VisibilityIcon />
+                  ) : (
+                    <VisibilityOffIcon />
+                  )}
+                </>
+              </span>
+            </div>
           </label>
           <button type="submit" className="btn">
             SIGN IN

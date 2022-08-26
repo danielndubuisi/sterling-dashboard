@@ -46,6 +46,21 @@
         flex-direction: column;
         gap: 20px;
 
+        .flexed {
+          display: flex;
+
+          input {
+            width: 90%;
+            outline: none;
+          }
+
+          .icon {
+            background-color: rgba(235, 226, 226, 0.418);
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+
         .icon {
           button {
             font-size: 10px;
@@ -60,6 +75,8 @@
         border: 1px solid rgba(255, 245, 245, 0.377);
         border-bottom: none;
         background-color: rgba(235, 226, 226, 0.418);
+        height: 30px;
+        outline: none;
 
         &::placeholder {
           font-size: 12px;
@@ -69,6 +86,7 @@
 
       .btn {
         background-color: rgb(207, 201, 201);
+        border: none;
         color: #fff;
         font-size: 12px;
         height: 40px;
