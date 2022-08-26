@@ -50,7 +50,7 @@ const Login = () => {
             Password
             <div className="flexed">
               <input
-                type="password"
+                type={values.showPassword ? "text" : "password"}
                 onChange={handleChange("password")}
                 value={values.password}
                 placeholder="8-characters"
