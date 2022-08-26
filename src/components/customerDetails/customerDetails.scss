@@ -1,0 +1,36 @@
+.table {
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  .tableHead {
+    font-size: 12px;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 0.1px;
+
+    &.flex {
+      display: flex;
+      align-items: center;
+    }
+
+    .icon {
+      font-size: 14px;
+    }
+  }
+
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Successful {
+      font-weight: 600;
+      color: green;
+      background-color: rgba(0, 128, 0, 0.151);
+    }
+    &.Failed {
+      font-weight: 600;
+      color: red;
+      background-color: rgba(204, 25, 25, 0.151);
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.single {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+
+  .single_container {
+    flex: 6;
+
+    .top {
+      margin: 50px 10px 30px;
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .left {
+        font-weight: 700;
+        color: #777;
+        font-size: 16px;
+      }
+
+      .icon {
+        font-size: 18px;
+      }
+
+      .customer {
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+
+    hr {
+      margin-left: 5px;
+      height: 0;
+      border: 0.5px solid rgb(243, 243, 243);
+    }
+
+    .info {
+      width: 100%;
+      padding: 10px;
+
+      .title {
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .wallet {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgba(201, 220, 253, 0.451);
+        padding: 30px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 80%;
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+        .wallet-balance {
+          color: rgb(57, 101, 177);
+          font-weight: 700;
+          font-size: 13px;
+        }
+
+        .wallet-amount {
+          font-size: 20px;
+          color: rgb(57, 101, 177);
+          font-weight: 700;
+        }
+
+        .balance {
+          display: flex;
+          font-size: 12px;
+          font-weight: 700;
+          color: #333;
+          margin-bottom: 10px;
+
+          span {
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
