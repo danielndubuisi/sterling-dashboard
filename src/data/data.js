@@ -1,0 +1,87 @@
+export const customerList = [
+  {
+    id: 51468465,
+    customer: "Nesfield Pharmacy",
+    setupDate: "19-02-2021",
+    status: "Active",
+    walletBalance: "NGN 500.00",
+  },
+  {
+    id: 54673194,
+    customer: "Wade Pharmacy",
+    setupDate: "05-07-2016",
+    status: "Active",
+    walletBalance: "NGN 500.00",
+  },
+  {
+    id: 13457059,
+    customer: "Howard Pharmacy",
+    setupDate: "18-09-2016",
+    status: "Inactive",
+    walletBalance: "NGN 500.00",
+  },
+  {
+    id: 5440754,
+    customer: "Williamson Pharmacy",
+    setupDate: "02-11-2012",
+    status: "Active",
+    walletBalance: "NGN 500.00",
+  },
+  {
+    id: 12434679,
+    customer: "Brooklyn Pharmacy",
+    setupDate: "18-09-2016",
+    status: "Inactive",
+    walletBalance: "NGN 500.00",
+  },
+  {
+    id: 8454134,
+    customer: "Pharmacy Life",
+    setupDate: "08-02-2019",
+    status: "Inactive",
+    walletBalance: "NGN 500.00",
+  },
+];
+
+export const customerDetails = [
+  {
+    transactionId: "Transaction - 5146fsf846q",
+    payments: "POS Transaction Charge NGN 2.975085",
+    id: 1,
+    amount: "NGN 2.98",
+    status: "Successful",
+    billingDate: "19-02-2021",
+  },
+  {
+    transactionId: "Transaction - 5146fsf846q",
+    payments: "Wallet Top Up: NGN 5,399.99 via POS",
+    id: 2,
+    amount: "NGN 5400",
+    status: "Successful",
+    billingDate: "07-05-2016",
+  },
+  {
+    transactionId: "Transaction - ...",
+    payments: "POS Transaction Charge NGN 2.975085",
+    id: 3,
+    amount: "NGN 2.98",
+    status: "Failed",
+    billingDate: "09-18-2016",
+  },
+  {
+    transactionId: "Transaction - 5146fsf846q",
+    payments: "POS Transaction Charge NGN 2.975085",
+    id: 4,
+    amount: "NGN 5400",
+    status: "Successful",
+    billingDate: "02-11-2022",
+  },
+  {
+    transactionId: "Transaction - ...",
+    payments: "Wallet Top Up: NGN 5,399.99 via POS",
+    id: 5,
+    amount: "NGN 2.98",
+    status: "Failed",
+    billingDate: "27-05-2015",
+  },
+];

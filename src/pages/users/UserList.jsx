@@ -10,7 +10,9 @@ const UserList = () => {
       <div className="list_container">
         <Overview />
         <Navbar />
-        <div>userpage</div>
+        <div className="user">
+          <h3>Welcome to the userpage</h3>
+        </div>
       </div>
     </div>
   );
